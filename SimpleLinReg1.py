@@ -57,7 +57,7 @@ model = LinearRegression()
 # Train the model
 model.fit(X_train, y_train)
 
-# Print model coefficients
+# Print model coefficients also limit to 4 decimal places
 print("\nModel Coefficients:")
 print(f"Intercept: {model.intercept_:.4f}")
 print(f"Slope (distance coefficient): {model.coef_[0]:.4f}")
